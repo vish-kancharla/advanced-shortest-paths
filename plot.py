@@ -89,8 +89,8 @@ def main():
     
     #  please uncomment below lines to do see output of all algorithms 
     print("Sample test run for all algorithms: ")
-    source, destination = random.randrange(1, number_of_vertices), \
-                        random.randrange(1, number_of_vertices)
+    source =  58003
+    destination =  23996
     print("Running algorithms with source: {}, and destination: {}".format(source, destination))
     print("Path found by Astar:")
     astar_haversine = AStar(haversine)
